@@ -4,7 +4,7 @@
 
 
 - Meeting recording
-  - [2018/03/23 meeting recording](docs/Meeting-recording/Meeting-rec-20180323.md)
+  - [2018/03/23 meeting recording](docs/meeting-recordings/Meeting-rec-20180323.md)
 
 
 
