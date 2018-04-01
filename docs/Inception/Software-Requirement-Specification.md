@@ -60,7 +60,7 @@
 
 #### 3.1.2 商户端用例图
 
-![image](https://github.com/Zhidan-System/dashboard/blob/master/assets/images/商家端使用场景.png)
+![image](../../assets/images/商家端使用场景.png)
 
 ### 3.2 客户端
 
@@ -79,4 +79,4 @@
 
 #### 3.2.2 客户端用例图
 
-![image](https://github.com/Zhidan-System/dashboard/blob/master/assets/images/客户端使用场景.png)
+![image](../../assets/images/客户端使用场景.png)

@@ -17,7 +17,7 @@
 
 
 
-![chart](../assets/images/chart.png)
+![chart](../../assets/images/chart.png)
 
 
 
@@ -25,7 +25,7 @@
 
 
 
-![chart (2)](../assets/images/chart2.png)
+![chart (2)](../../assets/images/chart2.png)
 
 
 
@@ -33,13 +33,11 @@
 
 
 
-![chart (1)](../assets/images/chart1.png)
+![chart (1)](../../assets/images/chart1.png)
 
 
 
 同时，为提供更好的用户体验，我们也对就餐者希望云点餐平台能够提供的除基本的点餐下单之外的其他功能进行了调查，调查显示，超过50%的受访者希望一个点餐平台还能提供丰富的菜品信息，预约拿号，在线支付的功能。
->>>>>>> dc66636bd8a4cb9585ab03eebe508f9b8f260fa0
-
 - 相关产品的市场（客户）定位
 
 广大需要在餐厅用餐的群众
