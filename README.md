@@ -23,7 +23,7 @@
   - [技术比较选择](docs/Inception/Comparation-Selection.md)
 - 精化阶段制品（Elaboration Artifacts）
 
-  - 用户界面交互设计
-  - 原始原型
-  - 项目设计文档
+  - [用户界面交互设计](docs/Elaboration/UI-Design.md)
+  - [原始原型](https://github.com/Zhidan-System/prototype)
+  - [项目设计文档](docs/Elaboration/Structure-Design.md)
 
