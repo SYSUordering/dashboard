@@ -35,3 +35,5 @@
          1. week 1: Sign up / Sign in
          2. week 2: Restaurant Dashboard
          3. week 3: MVC Structure Design
+            1. API
+            2. DataBase design

@@ -13,7 +13,7 @@
   - [项目规划](docs/About.md)
 - 会议记录（Meeting recording）
   - [第一次会议](docs/meeting-recordings/Meeting-rec-20180323.md)
-  - [第二次会议](docs/meeting-recordings/Meeting-rec-20180401.md)
+  - [第二次会议](docs/meeting-recordings/Meeting-rec-20180407.md)
 
 
 
@@ -21,6 +21,7 @@
   - [项目前期调研](docs/Inception/Investigation.md)
   - [软件规格说明书](docs/Inception/Software-Requirement-Specification.md)
   - [技术比较选择](docs/Inception/Comparation-Selection.md)
+  - [用例图](./docs/Inception/Use-Case-Diagram.md)
 - 精化阶段制品（Elaboration Artifacts）
 
   - [用户界面交互设计](docs/Elaboration/UI-Design.md)
