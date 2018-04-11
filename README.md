@@ -13,7 +13,7 @@
   - [项目规划](docs/About.md)
 - 会议记录（Meeting recording）
   - [第一次会议](docs/meeting-recordings/Meeting-rec-20180323.md)
-  - [第二次会议](docs/meeting-recordings/Meeting-rec-20180401.md)
+  - [第二次会议](docs/meeting-recordings/Meeting-rec-20180401.md)
 
 
 
