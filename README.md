@@ -19,7 +19,7 @@
 
 - 初始阶段制品（Inception Artifacts）
   - [项目前期调研](docs/Inception/Investigation.md)
-  - [软件规格说明书](docs/Inception/Software-Requirement-Specification.md)
+  - [软件规格说明书（含用例）](docs/Inception/Software-Requirement-Specification.md)
   - [技术比较选择](docs/Inception/Comparation-Selection.md)
   - [用例图](./docs/Inception/Use-Case-Diagram.md)
 - 精化阶段制品（Elaboration Artifacts）

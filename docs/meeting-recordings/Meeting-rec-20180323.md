@@ -1,4 +1,4 @@
-# Meeting Recording (2018.03.23)
+# Meeting Recording (2018/03/23)
 
 - 议题：云点餐服务平台
 
