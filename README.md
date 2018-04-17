@@ -12,14 +12,15 @@
   - [团队构建](docs/Team-profile.md)
   - [项目规划](docs/About.md)
 - 会议记录（Meeting recording）
-  - [第一次会议](docs/meeting-recordings/Meeting-rec-20180323.md)
-  - [第二次会议](docs/meeting-recordings/Meeting-rec-20180401.md)
+  - [第一次会议 (2018/03/23)](docs/meeting-recordings/Meeting-rec-20180323.md)
+  - [第二次会议 (2018/04/01)](docs/meeting-recordings/Meeting-rec-20180401.md)
+  - [第三层会议 (2018/04/17)](docs/meeting-recordings/Meeting-rec-20180417.md)
 
 
 
 - 初始阶段制品（Inception Artifacts）
   - [项目前期调研](docs/Inception/Investigation.md)
-  - [软件规格说明书](docs/Inception/Software-Requirement-Specification.md)
+  - [软件规格说明书（含用例）](docs/Inception/Software-Requirement-Specification.md)
   - [技术比较选择](docs/Inception/Comparation-Selection.md)
   - [用例图](./docs/Inception/Use-Case-Diagram.md)
 - 精化阶段制品（Elaboration Artifacts）
