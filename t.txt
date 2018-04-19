@@ -1,0 +1,10 @@
+Serving notebooks from local directory: /Users/applecz/Projects/Zhidan/Dashboard
+0 active kernels
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=b7b03860fb218bcb714096122c0df296f26a43d328df079e
+Shutdown this notebook server (y/[n])? No answer for 5s: resuming operation...
+Serving notebooks from local directory: /Users/applecz/Projects/Zhidan/Dashboard
+0 active kernels
+The Jupyter Notebook is running at:
+http://localhost:8888/?token=b7b03860fb218bcb714096122c0df296f26a43d328df079e
+Shutdown this notebook server (y/[n])? 
