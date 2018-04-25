@@ -21,11 +21,14 @@
 - 初始阶段制品（Inception Artifacts）
   - [项目前期调研](docs/Inception/Investigation.md)
   - [软件规格说明书（含用例）](docs/Inception/Software-Requirement-Specification.md)
+    - [用例图](./docs/Inception/Use-Case-Diagram.md)
+    - [领域模型](assets/images/领域建模.png)
   - [技术比较选择](docs/Inception/Comparation-Selection.md)
-  - [用例图](./docs/Inception/Use-Case-Diagram.md)
+  - [产品特性](./docs/Inception/Product-Backlog.md)
 - 精化阶段制品（Elaboration Artifacts）
 
-  - [用户界面交互设计](docs/Elaboration/UI-Design.md)
+  - [用户界面设计](docs/Elaboration/UI-Design.md)
+  - [数据库设计](docs/Elaboration/DB-Design.md)
   - [原始原型](https://github.com/Zhidan-System/prototype)
-  - [项目设计文档](docs/Elaboration/Structure-Design.md)
+
 
