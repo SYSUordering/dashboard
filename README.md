@@ -30,5 +30,7 @@
   - [用户界面设计](docs/Elaboration/UI-Design.md)
   - [数据库设计](docs/Elaboration/DB-Design.md)
   - [原始原型](https://github.com/Zhidan-System/prototype)
+  - [API设计 (ReDoc版)](https://zhidan-system.github.io/API/) 
+  - [API设计 (Swagger-UI版)](https://zhidan-system.github.io/API/swagger-ui)
 
 
