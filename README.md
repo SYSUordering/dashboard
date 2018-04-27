@@ -32,5 +32,6 @@
   - [原始原型](https://github.com/Zhidan-System/prototype)
   - [API设计 (ReDoc版)](https://zhidan-system.github.io/API/) 
   - [API设计 (Swagger-UI版)](https://zhidan-system.github.io/API/swagger-ui)
+  - [生产规范和指南](docs/Elaboration/Production-Specifications-and-Guidelines.md)
 
 
