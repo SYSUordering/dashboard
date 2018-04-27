@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>140</x>
+      <y>170</y>
+      <w>230</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Desk餐桌
+--
+DeskId   INTEGER    &lt;pk&gt;
+RestaurantId   INTEGER    &lt;fk&gt;
+DeskLink    VARCHAR(256)
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>500</x>
+      <y>150</y>
+      <w>290</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>Restaurant餐厅
+--
+RestaurantId   INTEGER    &lt;pk&gt;
+ManagerNumber    VARCHAR(16)
+ManagerPassword    CHAR(32)
+RestaurantName    VARCHAR(64)
+Description    VARCHAR(256)
+ImageId    VARCHAR(256)
+RestaurantNumber    VARCHAR(16)
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>930</x>
+      <y>140</y>
+      <w>290</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Disk菜品
+--
+DiskId   INTEGER    &lt;pk&gt;
+RestaurantId    INTEGER    &lt;fk&gt;
+CreationDate    INTEGER
+DiskName    VARCHAR(64)
+Price    FLOAT
+ImageId    INTEGER
+Flavor    VARCHAR(32)
+Category    VARCHAR(32)
+FavorableRate    FLOAT
+CommentNum    INTEGER
+Description    VARCHAR(256)
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>490</y>
+      <w>260</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Order订单
+--
+OrderId   INTEGER    &lt;pk&gt;
+CustomerId    VARCHAR(256)    &lt;fk&gt;
+RestaurantId    INTEGER    &lt;fk&gt;
+DeskId    INTEGER    &lt;fk&gt;
+OrderDate    DATETIME
+TotalPrices    FLOAT
+DiskNum    INTEGER
+Tableware    VARCHAR(4)
+State    VARCHAR(12)
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>500</y>
+      <w>240</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Sale销售记录
+--
+SalesId   INTEGER    &lt;pk&gt;
+RestaurantId    INTEGER    &lt;fk&gt;
+DiskId    INTEGER    &lt;fk&gt;
+OrdersId    INTEGER    &lt;fk&gt;
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>530</x>
+      <y>740</y>
+      <w>220</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>Customer顾客
+--
+CustomerId   VARCHAR(256)    &lt;pk&gt;
+NickName    VARCHAR(64)
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>970</x>
+      <y>560</y>
+      <w>230</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>Commentpinglun
+--
+CommentId   INTEGER    &lt;pk&gt;
+CustomerId   VARCHAR(256)    &lt;fk&gt;
+DiskId   INTEGER    &lt;fk&gt;
+Description    VARCHAR(256)
+Level VARCHAR(8)
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>210</y>
+      <w>160</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;140.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>270</y>
+      <w>30</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;220.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>310</y>
+      <w>210</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;180.0;10.0;110.0;190.0;110.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>310</y>
+      <w>30</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;200.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>550</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>210</y>
+      <w>170</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>300</y>
+      <w>200</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;240.0;100.0;240.0;100.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1060</x>
+      <y>380</y>
+      <w>30</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>580</y>
+      <w>240</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;220.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>700</y>
+      <w>340</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;90.0;320.0;90.0;320.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>690</y>
+      <w>280</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;90.0;260.0;90.0</additional_attributes>
+  </element>
+</diagram>
