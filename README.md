@@ -22,7 +22,7 @@
   - [项目前期调研](docs/Inception/Investigation.md)
   - [软件规格说明书（含用例）](docs/Inception/Software-Requirement-Specification.md)
     - [用例图](./docs/Inception/Use-Case-Diagram.md)
-    - [领域模型](assets/images/领域建模.png)
+    - [领域模型](./docs/Inception/Domain-Model.md)
   - [技术比较选择](docs/Inception/Comparation-Selection.md)
   - [产品特性](./docs/Inception/Product-Backlog.md)
 - 精化阶段制品（Elaboration Artifacts）
