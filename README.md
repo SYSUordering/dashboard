@@ -15,6 +15,7 @@
   - [第一次会议 (2018/03/23)](docs/meeting-recordings/Meeting-rec-20180323.md)
   - [第二次会议 (2018/04/01)](docs/meeting-recordings/Meeting-rec-20180401.md)
   - [第三层会议 (2018/04/17)](docs/meeting-recordings/Meeting-rec-20180417.md)
+  - [第四层会议 (2018/05/04)](docs/meeting-recordings/Meeting-rec-20180504.md)
 
 
 
