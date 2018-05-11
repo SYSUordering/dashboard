@@ -25,6 +25,14 @@
       4. Software Requirement Specification
       5. Team profile
       6. Vision
+  - Inception 2(**1 week**: *2018.04.01 - 2018.05.11*)
+    - goals(artifacts) :
+      1. use case
+      2. domain model
+      3. state model
+      4. API design
+      5. DB design
+      6. UI interface design
 - **Elaboration** 
 
   - Elaboration 1（**3 week**：*2018.04.01-2018.04.22*)

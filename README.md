@@ -14,7 +14,8 @@
 - 会议记录（Meeting recording）
   - [第一次会议 (2018/03/23)](docs/meeting-recordings/Meeting-rec-20180323.md)
   - [第二次会议 (2018/04/01)](docs/meeting-recordings/Meeting-rec-20180401.md)
-  - [第三层会议 (2018/04/17)](docs/meeting-recordings/Meeting-rec-20180417.md)
+  - [第三次会议 (2018/04/17)](docs/meeting-recordings/Meeting-rec-20180417.md)
+  - [第四次会议 (2018/05/04)](docs/meeting-recordings/Meeting-rec-20180504.md)
 
 
 
@@ -23,6 +24,7 @@
   - [软件规格说明书（含用例）](docs/Inception/Software-Requirement-Specification.md)
     - [用例图](./docs/Inception/Use-Case-Diagram.md)
     - [领域模型](./docs/Inception/Domain-Model.md)
+    - [状态模型](./docs/Inception/StateModel.md)
   - [技术比较选择](docs/Inception/Comparation-Selection.md)
   - [产品特性](./docs/Inception/Product-Backlog.md)
 - 精化阶段制品（Elaboration Artifacts）
@@ -33,5 +35,4 @@
   - [API设计 (ReDoc版)](https://zhidan-system.github.io/API/#tag/Restaurant) 
   - [API设计 (Swagger-UI版)](https://zhidan-system.github.io/API/swagger-ui/#/Restaurant)
   - [生产规范和指南](docs/Elaboration/Production-Specifications-and-Guidelines.md)
-
 
