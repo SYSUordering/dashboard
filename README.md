@@ -17,8 +17,6 @@
   - [第三次会议 (2018/04/17)](docs/meeting-recordings/Meeting-rec-20180417.md)
   - [第四次会议 (2018/05/04)](docs/meeting-recordings/Meeting-rec-20180504.md)
 
-
-
 - 初始阶段制品（Inception Artifacts）
   - [项目前期调研](docs/Inception/Investigation.md)
   - [软件规格说明书（含用例）](docs/Inception/Software-Requirement-Specification.md)
@@ -35,4 +33,5 @@
   - [API设计 (ReDoc版)](https://zhidan-system.github.io/API/#tag/Restaurant) 
   - [API设计 (Swagger-UI版)](https://zhidan-system.github.io/API/swagger-ui/#/Restaurant)
   - [生产规范和指南](docs/Elaboration/Production-Specifications-and-Guidelines.md)
+  - [系统顺序图](docs/Elaboration/System-Sequence-Diagram.md)
 
