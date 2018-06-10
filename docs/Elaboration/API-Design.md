@@ -29,6 +29,7 @@ base url: http://zhidan.site:8080
 | manager_password | string | 是       | password123 | 超过六位                       |
 
 返回示例：
+
 ```json
 // success
 Header: Set-Cookie: 'sid=xxxxx'
@@ -40,7 +41,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
@@ -75,7 +76,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Not login'
 }
 
@@ -95,7 +96,7 @@ JSON:
 | -------- | -------------------- |
 | 正式URL  | /api/v1/session      |
 | method   | DELETE               |
-| 请求体   | 表单形式，见下表     |
+| 请求体   | 无                   |
 | 返回值   | JSON格式，见返回示例 |
 
 返回示例：
@@ -109,7 +110,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
@@ -131,8 +132,17 @@ JSON:
 | 功能描述    | 注册餐厅账户       |
 | ----------- | ------------------ |
 | URL正式描述 | /api/v1/restaurant |
+| method   | POST                                         |
+| 请求体   | 表单形式，见下表                      |
+| 返回值   | JSON格式，见返回示例                         |
 
 表单参数：
+
+| 参数            | 类型   | 是否必须 | 示例值      | 描述                           |
+| --------------- | ------ | -------- | ----------- | ------------------------------ |
+| number          | string | 是       | 13128809302 | 可能发生重复，重复返回错误提示 |
+| password        | string | 是       | password123 | 超过六位                       |
+| restaurant_name | string | 是       | 东北烧烤    | 餐厅名                         |
 
 返回示例：
 
@@ -161,7 +171,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
@@ -180,11 +190,18 @@ JSON:
 
 接口说明：
 
-| 功能描述    | 获取餐厅基本信息   |
-| ----------- | ------------------ |
-| URL正式描述 | /api/v1/restaurant |
+| 功能描述    | 获取餐厅基本信息                                  |
+| ----------- | ------------------------------------------------- |
+| URL正式描述 | /api/v1/restaurant                                |
+| method      | GET                                               |
+| 请求体      | query格式：`/api/v1/restaurant?restaurant_id=111` |
+| 返回值      | JSON格式见返回示例                                |
 
-表单参数：
+query参数：
+
+| 参数          | 类型 | 是否必须 | 示例值 | 描述 |
+| ------------- | ---- | -------- | ------ | ---- |
+| restaurant_id | int  | 是       | 111    | 无   |
 
 返回示例：
 ```json
@@ -214,7 +231,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
@@ -227,6 +244,8 @@ JSON:
 
 
 ### 2.3 创建餐桌
+
+> 未完善
 
 接口说明：
 
@@ -253,7 +272,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
@@ -274,8 +293,15 @@ JSON:
 | 功能描述    | 获取餐厅基本信息      |
 | ----------- | --------------------- |
 | URL正式描述 | /api/v1/menu/category |
+| method   | POST                                    |
+| 请求体   | 表单形式（必须已经处于登录状态） |
+| 返回值   | JSON格式，见返回示例                         |
 
 表单参数：
+
+| 参数 | 类型   | 是否必须 | 示例值 | 描述 |
+| ---- | ------ | -------- | ------ | ---- |
+| name | string | 是       | 小炒   | 无   |
 
 返回示例：
 
@@ -294,7 +320,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
@@ -313,8 +339,19 @@ JSON:
 | 功能描述    | 获取餐厅基本信息  |
 | ----------- | ----------------- |
 | URL正式描述 | /api/v1/menu/dish |
+| method   | POST                                        |
+| 请求体   | 表单形式（必须处于登录状态） |
+| 返回值   | JSON格式，见返回示例                         |
 
 表单参数：
+
+| 参数        | 类型   | 是否必须 | 示例值           | 描述       |
+| ----------- | ------ | -------- | ---------------- | ---------- |
+| dish_name   | string | 是       | 111              | 菜品名     |
+| price       | float  | 是       | 13.5             | 价格       |
+| flavor      | string | 否       | ’清淡‘           | 口味       |
+| description | string | 否       | ’来自星星的料理‘ | 菜品描述   |
+| category_id | int    | 是       | 1                | 对应分类id |
 
 返回示例：
 
@@ -341,7 +378,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
@@ -360,13 +397,20 @@ JSON:
 | 功能描述    | 获取餐厅基本信息 |
 | ----------- | ---------------- |
 | URL正式描述 | /api/v1/menu     |
+| method   | GET                                         |
+| 请求体   | query格式：`/api/v1/menu`       |
+| 返回值   | JSON格式，见返回示例                         |
 
-表单参数：
+query参数：
+
+| 参数          | 类型 | 是否必须 | 示例值 | 描述 |
+| ------------- | ---- | -------- | ------ | ---- |
+| restaurant_id | int  | 是       | 111    | 无   |
 
 返回示例：
 
 
-```json
+```javascript
 // success
 {
     code: 200,
@@ -416,7 +460,7 @@ JSON:
 
 // error
 {
-    errcode: 401,
+    errcode: 400,
     errmsg: 'Wrong format'
 }
 
