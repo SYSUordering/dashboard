@@ -35,4 +35,5 @@
   - [API设计 (Swagger-UI版)](https://zhidan-system.github.io/API/swagger-ui/#/Restaurant)
   - [生产规范和指南](docs/Elaboration/Production-Specifications-and-Guidelines.md)
   - [系统顺序图](docs/Elaboration/System-Sequence-Diagram.md)
+  - [软件架构文档](docs/Elaboration/Software-Architecture-Document.md)
 
