@@ -76,7 +76,7 @@
 
 ## 三、逻辑视图
 
-
+![logic](../../assets/images/logic.png)
 
 ## 四、物理视图
 
