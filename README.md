@@ -30,9 +30,11 @@
   - [用户界面设计](docs/Elaboration/UI-Design.md)
   - [数据库设计](docs/Elaboration/DB-Design.md)
   - [原始原型](https://github.com/Zhidan-System/prototype)
+  - [API说明文档](docs/Elaboration/API-Design.md)
   - [API设计 (ReDoc版)](https://zhidan-system.github.io/API/#tag/Restaurant) 
   - [API设计 (Swagger-UI版)](https://zhidan-system.github.io/API/swagger-ui/#/Restaurant)
   - [生产规范和指南](docs/Elaboration/Production-Specifications-and-Guidelines.md)
   - [系统顺序图](docs/Elaboration/System-Sequence-Diagram.md)
+  - [软件架构文档](docs/Elaboration/Software-Architecture-Document.md)
 
   - [补充性规格说明](docs/Inception/Supplementary-Requirements.md)
