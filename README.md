@@ -35,3 +35,4 @@
   - [生产规范和指南](docs/Elaboration/Production-Specifications-and-Guidelines.md)
   - [系统顺序图](docs/Elaboration/System-Sequence-Diagram.md)
 
+  - [补充性规格说明](docs/Inception/Supplementary-Requirements.md)
