@@ -38,4 +38,4 @@
   - [软件架构文档](docs/Elaboration/Software-Architecture-Document.md)
 
   - [补充性规格说明](docs/Inception/Supplementary-Requirements.md)
- - [REST API设计规范](docs/Elaboration/REST_API设计规范.md)
+  - [REST API设计规范](docs/Elaboration/REST_API设计规范.md)
