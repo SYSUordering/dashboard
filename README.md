@@ -27,7 +27,7 @@
     4. [软件架构文档](docs/Elaboration/Software-Architecture-Document.md)
     5. [用例设计]
         - [ECB结算用例设计](docs/Elaboration/ECB结算系统用例设计.md)
-        - [ECB餐厅信息管理者用例设计](docs/Elaboration/ECB餐厅信息管理者用例.md)
+        - [ECB餐厅信息管理者用例设计](docs/Elaboration/ECB餐厅信息管理者者用例.md)
 8. [生产规范与指南]
     1. [代码规范](docs/Elaboration/Production-Specifications-and-Guidelines.md)
     2. [REST API设计规范](docs/Elaboration/REST_API设计规范.md)
