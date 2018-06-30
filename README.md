@@ -32,7 +32,7 @@
     1. [代码规范](docs/Elaboration/Production-Specifications-and-Guidelines.md)
     2. [REST API设计规范](docs/Elaboration/REST_API设计规范.md)
     3. [逻辑架构到应用程序映射指南](docs/Elaboration/逻辑设计类图映射到实际项目框架的包图.md)
-    4. [物理架构云上部署 dock-compose.yml 文件编写与使用]()
+    4. [物理架构云上部署 dock-compose.yml 文件编写与使用](docs/Elaboration/k8s简介以及部署yaml文件编写与使用.md)
 
 - 会议记录（Meeting recording）
   - [第一次会议 (2018/03/23)](docs/meeting-recordings/Meeting-rec-20180323.md)
@@ -44,7 +44,7 @@
     - [15331388](final-reports/15331388.md)
     - [15331386](final-reports/15331386.md)
     - [15331393](final-reports/15331393.md)
-    - [15331237](final-reports/15331237.md)
+    - [15331237](final-reports/15331237/15331237.md)
     - [15331333](final-reports/15331333.md)
     - [15331343](final-reports/15331343.md)
     - [14313081](final-reports/14313081.md)
