@@ -7,6 +7,6 @@
 4. 新建餐桌
 ![新建餐桌](../../assets/images/display/新建餐桌.gif)
 5. 顾客扫码点餐
-![顾客扫码点餐](../../assets/images/display/顾客扫码点餐.gif)
+![顾客扫码点餐](../../assets/images/display/顾客点餐.gif)
 6. 完成订单
 ![完成订单](../../assets/images/display/完成订单.gif)
