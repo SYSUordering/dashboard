@@ -76,8 +76,8 @@
 
 ## 三、逻辑视图
 
-![logic](../../../assets/images/logic.png)
+![logic](../../assets/images/logic.png)
 
 ## 四、物理视图
-![物理视图](../../../assets/images/WechatIMG332.png)
+![物理视图](../../assets/images/WechatIMG332.png)
 
